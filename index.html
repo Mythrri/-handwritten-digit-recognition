@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Handwritten Digit Recognition</title>
+<link rel="stylesheet" href="style.css">
+<!-- No TensorFlow needed -->
+</head>
+<body>
+
+<h1>Handwritten Digit Recognition</h1>
+<p>Draw a digit 0 - 9 below</p>
+
+<canvas id="canvas" width="280" height="280"></canvas>
+<br>
+<button onclick="clearCanvas()">Clear</button>
+<button onclick="predict()">Predict</button>
+
+<h2 id="result">Draw and click Predict</h2>
+<p id="status">Loading model...</p>
+
+<script src="script.js"></script>
+</body>
+</html>
